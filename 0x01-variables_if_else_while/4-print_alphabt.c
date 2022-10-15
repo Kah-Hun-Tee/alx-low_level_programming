@@ -13,6 +13,7 @@ int main(void)
 	for (nam = 'a'; nam <= 'z'; nam++)
 		if (nam == 'q' || nam == 'e')
 			continue;
+                               	putchar(nam);
 	putchar('\n');
 	return (0);
 }
