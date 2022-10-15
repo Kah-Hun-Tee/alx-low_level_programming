@@ -7,21 +7,26 @@ int main(void)
 {
 	int a, b, c;
 
-	for (a = 0; a < 8; a++)
+	for (a = 48; a < 58; a++)
 	{
-		for (b = a + 1; b < 9; b++)
+		for (b = 49; b < 58; b++)
 		{
-			for (c = b + 1; c < 10; c++)
+			for (c = 50; c < 58; c++)
 			{
-				putchar((a % 10) + '0');
-				putchar((b % 10) + '0');
-				putchar((c % 10) + '0');
-				if (a == 7 && b == 8 && c == 9)
-					continue;
-				putchar(',');
-				putchar(' ');
+				if (c > b && b > a)
+				{
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					if (a != 55 || b != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
