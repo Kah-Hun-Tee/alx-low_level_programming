@@ -11,7 +11,7 @@ int main(void)
 	char nam;
 
 	for (nam = 'a'; nam <= 'z'; nam++)
-		if (low == 'q' || nam == 'e')
+		if (nam == 'q' || nam == 'e')
 			continue;
 	putchar('\n');
 	return (0);
