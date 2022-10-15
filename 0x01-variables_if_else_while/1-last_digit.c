@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit of the random number stored in the variable n
+ * main - Entry point
+ *
  * Return: Always 0 (success)
  */
 int main(void)

@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+	int p;
+	char nam;
+
+	for (p = '0'; p <= '9'; p++)
+		putchar (p);
+	for (nam = 'a'; nam <= 'f'; nam++)
+		putchar(nam);
+	putchar('\n')
+		return (0);
+}
