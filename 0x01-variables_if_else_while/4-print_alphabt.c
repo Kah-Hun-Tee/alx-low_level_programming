@@ -8,12 +8,16 @@
  */
 int main(void)
 {
-	char nam;
+	char nam = 'a';
 
-	for (nam = 'a'; nam <= 'z'; nam++)
-		if (nam == 'q' || nam == 'e')
-			continue;
-                               	putchar(nam);
+	while (nam <= 'z')
+	{
+		if (nam != 'e' && nam != 'q')
+		{
+			putchar(nam);
+		}
+		nam++;
+	}
 	putchar('\n');
 	return (0);
 }
