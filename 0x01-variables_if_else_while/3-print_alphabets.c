@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	int nam;
+	char nam;
 
-	for (nam = 'a'; nam <= 'z'; nam++
-			putchar(nam);
-	for (nam = 'A'; nam <= 'Z'; nam++
-	           	putchar(nam);
+	for (nam = 'a'; nam <= 'z'; nam++)
+		putchar(nam);
+	for (nam = 'A'; nam <= 'Z'; nam++)
+		putchar(nam);
 	putchar('\n');
 	return (0);
 }
