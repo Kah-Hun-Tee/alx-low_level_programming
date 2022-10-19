@@ -4,24 +4,27 @@
  * times_table - this prints the 9 times table, starting with 0.
  * Return: 0
  */
-
 void times_table(void)
 {
-	int line1, line2, line3;
+	int i, j, k;
 
-	for (line1 = 0; line1 <= 9; line1++)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar(0);
-		for (line2 = 1; line2 <= 9; line2++)
+		putchar('0');
+
+		for (j = 1; j < 9; j++)
 		{
 			_putchar(',');
 			_putchar(' ');
-			line3 = line1 * line2;
-			if (line3 <= 9)
+
+			k = j * i;
+
+			if (k <= 9)
 				_putchar(' ');
 			else
-				_putchar((line3 / 10) + '0');
-			_putchar((line3 % 10) + '0');
+				_putchar((k / 10) + '0');
+
+			_putchar((k % 10) + '0');
 		}
 		_putchar('\n');
 	}
