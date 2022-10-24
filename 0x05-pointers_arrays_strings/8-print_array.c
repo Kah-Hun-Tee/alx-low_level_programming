@@ -13,11 +13,9 @@ void print_array(int *p, int n)
 	int q;
 
 	for (q = 0; q < n; q++)
-	{
-		if (q == 0)
-			printf("%d", p[q]);
+		if (q != n - 1)
+			printf("%d, ", p[q]);
 		else
-			printf(", %d", p[q]);
-	}
-	printf('\n');
+			printf("%d", p[q]);
+	printf("\n");
 }
