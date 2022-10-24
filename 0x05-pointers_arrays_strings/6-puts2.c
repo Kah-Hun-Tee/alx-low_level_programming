@@ -7,18 +7,11 @@
 
 void puts2(char *str)
 {
-	int numBer, p;
+	int stRING;
 
-	numBer = 0;
+	for (stRING = 0; str[stRING] != '\0'; stRING++)
 
-	while (str[numBer] != '\0')
-	{
-		numBer++;
-	}
-
-	for (p = 0; p < numBer; p +- 2)
-	{
-		_putchar(str[p]);
-	}
+		if (stRING % 2 == 0)
+			_putchar(str[stRING]);
 	_putchar('\n');
 }
