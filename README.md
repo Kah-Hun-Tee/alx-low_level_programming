@@ -1,1 +1,1 @@
-Very first time doing C programming.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7EEED&center=true&vCenter=true&multiline=true&width=500&height=150&lines=Very+first+time+learning+C+program;Working+on+LOW-LEVEL-PROGRAMMING;All+projects+done+by+Kah-Hun-Tee;VELVET%3A%3ABROWN)](https://git.io/typing-svg)
